@@ -27,7 +27,7 @@
 
 </div>
 
- [http4k] is a lightweight but fully-featured HTTP toolkit written in pure [Kotlin](https://kotlinlang.org/) that enables the serving and consuming of HTTP services in a functional and consistent way. [http4k] applications are *just* Kotlin functions. For example, here's a simple echo server:
+ [http4k] is a lightweight, but fully-featured HTTP toolkit written in pure [Kotlin](https://kotlinlang.org/) that enables the serving and consuming of HTTP services in a functional and consistent way. [http4k] applications are *just* Kotlin functions. For example, here's a simple echo server:
  
 ```kotlin
  val app: HttpHandler = { request: Request -> Response(OK).body(request.body) }
